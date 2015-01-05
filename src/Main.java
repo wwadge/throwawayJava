@@ -18,6 +18,10 @@ public class Main {
         return a + b + c;
     }
 
+    public void foo(Transport transport){
+            transport.getSpeed();
+    }
+
     public static void main(String[] args) {
         // byte        -127 -> 127
         // short          65535
@@ -80,8 +84,17 @@ public class Main {
         maltaClock.setMins(22);
 
         Clock ukClock = new Clock();
-        ukClock.hours = 17;
-        ukClock.mins = 22;
+
+        AlarmClock alarmClock = new AlarmClock();
+
+        BankAccount bankAccount = new BankAccount("Wallace");
+
+
+
+        // java has 8 primitive types
+        // byte int short long float char double boolean
+
+
 
 
 

@@ -26,4 +26,8 @@ public class Clock {
             System.out.println("fuck off");
         }
     }
+
+    public Clock(){
+        // default constructor - always there
+    }
 }
